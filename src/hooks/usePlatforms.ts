@@ -7,7 +7,7 @@ interface Platform {
 }
 
 function usePlatforms() {
-  return useData<Platform>("/xplatforms/lists/parents");
+  return useData<Platform>("/platforms/lists/parents");
 }
 
 export default usePlatforms;
